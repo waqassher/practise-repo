@@ -4,7 +4,7 @@ metadata:
   name: nginx
 spec:
   containers:
-  - name: nginx
-    image: nginx:1.14.2
+  - name: ubuntu
+    image: ubuntu:14.02
     ports:
     - containerPort: 80
